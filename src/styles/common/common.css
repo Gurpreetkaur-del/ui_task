@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../../../public/assets/fonts/Roboto/Roboto-Bold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/Roboto/Roboto-Bold.woff") format('woff'),
+    url("../../../public/assets/fonts/Roboto/Roboto-Bold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../../../public/assets/fonts/Roboto/Roboto-Medium.ttf") format('ttf'),
+    url("../../../public/assets/fonts/Roboto/Roboto-Medium.woff") format('woff'),
+    url("../../../public/assets/fonts/Roboto/Roboto-Medium.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../../../public/assets/fonts/Roboto/Roboto-Regular.ttf") format('ttf'),
+    url("../../../public/assets/fonts/Roboto/Roboto-Regular.woff") format('woff'),
+    url("../../../public/assets/fonts/Roboto/Roboto-Regular.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../../public/assets/fonts/poppins/Poppins-Bold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/poppins/Poppins-Bold.woff") format('woff'),
+    url("../../../public/assets/fonts/poppins/Poppins-Bold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../../../public/assets/fonts/poppins/Poppins-SemiBold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/poppins/Poppins-SemiBold.woff") format('woff'),
+    url("../../../public/assets/fonts/poppins/Poppins-SemiBold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../../../public/assets/fonts/poppins/Poppins-Medium.ttf") format('ttf'),
+    url("../../../public/assets/fonts/poppins/Poppins-Medium.woff") format('woff'),
+    url("../../../public/assets/fonts/poppins/Poppins-Medium.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../../public/assets/fonts/poppins/Poppins-Regular.ttf") format('ttf'),
+    url("../../../public/assets/fonts/poppins/Poppins-Regular.woff") format('woff'),
+    url("../../../public/assets/fonts/poppins/Poppins-Regular.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("../../../public/assets/fonts/work-sans/WorkSans-Bold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-Bold.woff") format('woff'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-Bold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: url("../../../public/assets/fonts/work-sans/WorkSans-SemiBold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-SemiBold.woff") format('woff'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-SemiBold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans-Medium";
+  src: url("../../../public/assets/fonts/work-sans/WorkSans-Medium.ttf") format('ttf'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-Medium.woff") format('woff'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-Medium.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("../../../public/assets/fonts/work-sans/WorkSans-Regular.ttf") format('ttf'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-Regular.woff") format('woff'),
+    url("../../../public/assets/fonts/work-sans/WorkSans-Regular.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "PublicSans-Bold";
+  src: url("../../../public/assets/fonts/public-sans/PublicSans-Bold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-Bold.woff") format('woff'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-Bold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PublicSans-SemiBold";
+  src: url("../../../public/assets/fonts/public-sans/PublicSans-SemiBold.ttf") format('ttf'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-SemiBold.woff") format('woff'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-SemiBold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PublicSans-Medium";
+  src: url("../../../public/assets/fonts/public-sans/PublicSans-Medium.ttf") format('ttf'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-Medium.woff") format('woff'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-Medium.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PublicSans-Regular";
+  src: url("../../../public/assets/fonts/public-sans/PublicSans-Regular.ttf") format('ttf'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-Regular.woff") format('woff'),
+    url("../../../public/assets/fonts/public-sans/PublicSans-Regular.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  max-width: 1920px !important;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.wrapper-main {
+  padding-left: 325px;
+}
+
+.wrapper-common-pg {
+  padding: 16px 25px;
+}

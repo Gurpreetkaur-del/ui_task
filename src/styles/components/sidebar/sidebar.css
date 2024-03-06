@@ -1,0 +1,109 @@
+.wrapper-sidebar {
+    position: fixed;
+    width: 325px;
+    top: 0;
+    left: 0;
+    padding: 0px 0px 10px 0;
+    height: 100vh;
+    background: #fd3693;
+}
+
+.wrapper-sidebar .brand-logo {
+    /* text-align: center; */
+    margin-left: 15px;
+    padding: 23px 25px;
+    /* border-bottom: 2px solid #f15faa; */
+    color: #fff;
+}
+
+.wrapper-sidebar .brand-logo img {
+    /* width: 200px; */
+}
+
+.wrapper-sidebar ul {
+    overflow: auto;
+    height: calc(100vh - 250px);
+    /* height: 100vh; */
+    padding: 16px 0px 16px 0;
+}
+
+.wrapper-sidebar ul li {
+    display: block;
+    padding: 0;
+}
+
+.wrapper-sidebar .item-link {
+    display: flex;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    color: #fff;
+    padding: 20px 10px 20px 25px;
+    align-items: center;
+    color: #fff !important;
+    cursor: pointer;
+}
+.wrapper-sidebar .item-link:hover{
+background: #fff;
+color: #fd3693;
+}
+.wrapper-sidebar .item-link:hover span{
+    color: #fd3693;
+}
+.wrapper-sidebar .item-link svg{
+    font-size: 20px;
+}
+
+.wrapper-sidebar .item-link span {
+    font-family: "Poppins-Regular";
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.wrapper-sidebar .item-link.active {
+    color: #105C6E !important;
+    background: #fff;
+}
+.wrapper-sidebar .item-link.active span{
+    font-family: "Poppins-SemiBold";
+}
+.wrapper-sidebar .btn-setting {
+    font-size: 16px;
+  font-family: "Poppins-Regular";
+    display: block;
+  width: 325px;
+  border: 0;
+  background: transparent;
+  border-top: 2px solid #f674be;
+  text-align: left;
+  padding: 20px 40px;
+  margin-top: 20px;
+  color: #fff;
+}
+.wrapper-sidebar .search-bx {
+    padding: 20px 20px;
+    border-top: 2px solid #f674be;
+    border-bottom: 2px solid #f674be;
+}
+.wrapper-sidebar .search-bx .input-group{
+    position: relative;
+}
+.wrapper-sidebar .search-bx .input-group img{
+    position: absolute;
+    left: 16px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+}
+.wrapper-sidebar .search-bx .input-group input{
+    padding-left: 40px;
+    border-radius: 8px!important;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+}
+.wrapper-sidebar .search-bx .input-group input::-moz-placeholder{
+    color: #fff;
+}

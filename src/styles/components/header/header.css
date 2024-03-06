@@ -1,0 +1,92 @@
+.wrapper-header {
+    background: #FFFFFF;
+    padding: 9px 25px;
+    border-bottom: 2px solid #f8f8f8;
+}
+
+.wrapper-header .heading20 {
+    font-size: 20px;
+    font-family: "Poppins-SemiBold";
+}
+
+.wrapper-header .wrapper-hearder-right-item {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-status {
+    margin-right: 16px;
+}
+
+.user-profile-status .profile-name {
+    font-size: 18px;
+    font-family: "Poppins-Medium";
+}
+
+.user-profile-status .profile-email {
+    font-size: 15px;
+    font-family: "Poppins-Regular";
+}
+
+.wrapper-header .wrap-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.wrapper-header .wrap-header .user-drop-btn {
+    position: relative;
+    padding: 0;
+    padding-right: 20px;
+}
+
+.wrapper-header .wrap-header .user-drop-btn:hover {
+    background: transparent;
+}
+
+.wrapper-header .wrap-header .user-drop-btn:focus {
+    background: transparent;
+}
+
+.wrapper-header .wrap-header .user-drop-btn::after {
+    position: absolute;
+    content: " ";
+    background: url('../../../../public/assets/images/chevron-down1.svg') no-repeat;
+    background-size: 100% 100%;
+    right: 0;
+    width: 14px;
+    height: 14px;
+}
+
+.search-input-bx {
+    position: relative;
+    background: #FCFCFC;
+    border-radius: 30px;
+}
+
+.search-input-bx input {
+    background: #FCFCFC;
+    border-radius: 30px;
+    border: 1px solid #E6E6E6;
+    padding: 6px 14px;
+    padding-right: 45px;
+    font-size: 17px;
+    font-family: "Roboto-Regular";
+    width: 100%;
+}
+
+.search-input-bx .btn-search {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    border: 0;
+    background: transparent;
+    line-height: 0;
+}
+
+.search-input-bx .search-icon {
+    width: 16px;
+}
